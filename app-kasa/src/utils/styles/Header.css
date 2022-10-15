@@ -1,0 +1,32 @@
+.Header {
+    margin: 0 20px;
+}
+
+.Header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px auto;
+    max-width: 1240px;
+}
+
+.Header_div_logo {
+    width: 210px;
+}
+
+.Header_div_nav {
+    display: flex;
+}
+.Header_link {
+    
+    list-style-type: none;
+    padding: 20px 0 20px 40px;
+    color:#FF6060;
+}
+.Link_Nav{
+    font-size: 24px;
+    font-weight: 500; 
+    color:#FF6060;
+    text-decoration: none;
+}
