@@ -1,0 +1,24 @@
+.Position_div {
+    display: flex;
+    justify-content: center;
+    margin: 43px 0;
+    position: relative;
+}
+.BannerHome_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 223px;
+    max-width: 1240px;
+    border-radius: 25px;
+}
+.BannerHome_div_img {
+    background: url("../../assets/BannerHomeDesk.jpg");
+    background-size: cover;
+    height: 223px;
+    width: 100%;
+    max-width: 1240px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,16 @@
+.Footer_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 209px;
+    max-width: 1440px;
+}
+.Footer_div_logo {
+        padding: 35px 0 20px 0;
+    }
+.Footer_p {
+        color: white;
+        font-size: clamp(12px, 3vw, 24px);
+    }
