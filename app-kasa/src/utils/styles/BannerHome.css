@@ -1,10 +1,10 @@
-.Position_div {
+.Position_BannerHome {
     display: flex;
     justify-content: center;
     margin: 43px 0;
     position: relative;
 }
-.BannerHome_div {
+.BannerHome_el {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,15 @@
     max-width: 1240px;
     border-radius: 25px;
 }
-.BannerHome_div_img {
+.BannerHome_h1 {
+    font-size: clamp(24px, 5vw, 48px);
+    color: white;
+    font-weight: 500;
+    z-index: 3;
+    line-height: 24px;
+    margin: 0 20px;
+}
+.BannerHome_img {
     background: url("../../assets/BannerHomeDesk.jpg");
     background-size: cover;
     height: 223px;
@@ -21,4 +29,22 @@
     border-radius: 25px;
     position: absolute;
     z-index: 1;
+}
+
+@media screen and (max-width: 500px){
+    .Position_el {
+        margin: 20px 0;
+    }
+    .BannerHome_el {
+        height: 111px;
+    }
+    .BannerHome_el.h1 {
+            font-weight: 400;
+    }
+    .BannerHome_img {
+        background-size: cover;
+        height: 111px;
+        border-radius: 10px;
+    }
+
 }

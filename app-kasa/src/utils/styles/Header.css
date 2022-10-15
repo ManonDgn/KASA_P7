@@ -1,8 +1,7 @@
 .Header {
     margin: 0 20px;
 }
-
-.Header_div {
+.Header_el {
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -11,12 +10,10 @@
     margin: 40px auto;
     max-width: 1240px;
 }
-
-.Header_div_logo {
+.Header_logo {
     width: 210px;
 }
-
-.Header_div_nav {
+.Header_nav {
     display: flex;
 }
 .Header_link {
