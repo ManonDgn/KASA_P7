@@ -4,7 +4,6 @@
     margin: 43px 20px;
     position: relative;
 }
-
 .BannerAbout_el {
     display: flex;
     justify-content: center;
@@ -13,7 +12,6 @@
     max-width: 1240px;
     border-radius: 25px;
 }  
-
 .BannerAbout_img {
         background: url("../../assets/BannerAbout.jpg");
         background-size: cover;
@@ -24,12 +22,10 @@
         position: absolute;
         z-index: 1;
 }
-
 @media screen and (max-width: 600px){
     .Position_BannerAbout {
         margin: 20px 20px;
     }
-        
     .BannerAbout_div_img {
         background: url("../../assets/BannerAbout.jpg");
         border-radius: 10px;

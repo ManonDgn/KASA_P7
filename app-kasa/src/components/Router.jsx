@@ -1,10 +1,13 @@
+// Import Routes de react-router-dom -- router.jsx // index.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Import Composants
 import Home from "../pages/Home/Home";
-// import Place from "../pages/Place/Place";
 import About from "../pages/About/About";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 // import Error404 from "../pages/Error/Error404";
+// import Place from "../pages/Place/Place";
 
 function Router () {
     return (

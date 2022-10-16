@@ -1,5 +1,7 @@
+// Import Style CSS
 import "../../utils/styles/Banner_About.css"
 
+//
 function BannerAbout () {
     return (
         <div className="Position_BannerAbout">
@@ -9,5 +11,4 @@ function BannerAbout () {
         </div>
     )
 }
-
 export default BannerAbout ;

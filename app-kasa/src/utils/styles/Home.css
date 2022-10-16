@@ -1,7 +1,6 @@
 .Home_el {
     margin: 0 20px;
 }
-
 .Home_card_place {
     background-color: #F6F6F6;
     border-radius: 25px;
@@ -9,7 +8,6 @@
     margin: 40px auto;
     padding: 45px 0;
 }
-
 @media screen and (max-width: 795px){
     .Home_card_place {
         background-color: white;

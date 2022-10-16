@@ -1,5 +1,7 @@
+// Import Style CSS
 import '../../utils/styles/BannerHome.css'
 
+//
 function BannerHome () {
     return (
         <div className="Position_BannerHome">
