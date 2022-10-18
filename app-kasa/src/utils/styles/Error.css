@@ -1,0 +1,24 @@
+.error {
+    text-align: center;
+    color: #FF6060;
+    font-family: montserrat;
+    min-height: 100vh;
+}
+.error-title {
+    font-size: 288px;
+    font-weight: 700px;
+    margin: 0;
+}
+
+.error-title2 {
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+.link-error {
+    color: #FF6060;
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: 150px;
+}
