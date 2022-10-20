@@ -1,12 +1,12 @@
 // Import Style CSS
-import "../../utils/styles/Banner_About.css"
+import "../../utils/styles/BannerAbout.css"
 
 //
 function BannerAbout () {
     return (
-        <div className="Position_BannerAbout">
-        <div className="BannerAbout_el">
-            <div className="BannerAbout_img"></div>
+        <div className="bannerAbout-bloc">
+        <div className="bannerAbout-el">
+            <div className="bannerAbout-img"></div>
         </div>
         </div>
     )

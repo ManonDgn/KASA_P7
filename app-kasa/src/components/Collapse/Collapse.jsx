@@ -8,13 +8,13 @@ import { useState } from 'react'
 function Collapse(collapsetype) {
     const [isClose, setIsClose] = useState(true)
     return isClose ? (
-      <div className ="positionCollapse">
-        <button className ="collapseBtn" onClick={() => setIsClose(false)}>{collapsetype.name}<img src={arrowDown} alt="Arrow Down"></img></button>
+      <div className ="collapse-bloc">
+        <button className ="collapse-btn" onClick={() => setIsClose(false)}>{collapsetype.name}<img src={arrowDown} alt="Arrow Down"></img></button>
       </div>
     ) : (
-        <div className ="positionCollapse">
-        <button className ="collapseBtn" onClick={() => setIsClose(true)}>{collapsetype.name}<img src={arrowUp} alt="Arrow Up"></img></button>
-        <div className="collDesc">{collapsetype.description}</div>
+        <div className ="collapse-bloc">
+        <button className ="collapse-btn" onClick={() => setIsClose(true)}>{collapsetype.name}<img src={arrowUp} alt="Arrow Up"></img></button>
+        <div className="collapse-desc">{collapsetype.description}</div>
       </div>
     )
 }

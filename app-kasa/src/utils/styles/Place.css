@@ -1,0 +1,83 @@
+.place {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.place-title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    size: 36px;
+    line-height: 51.34px;
+    color: #FF6060;
+    font-size: 36px;
+    transition-duration: 1s;
+}
+.place-location {
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    margin-top: -25px;
+}
+.place-location-tags {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+.tag-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 5px;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: #F2F2F2;
+    background-color: #FF6060;
+}
+.account {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.account-host{
+    margin-top: 25px;
+}
+.account-star{
+    margin-left: 30px;
+}
+.account-host-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.account-host-name {
+    width: 93px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+}
+.account-host-img {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+}
+.account-host-star {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 22px;
+}
+.place-collapses {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}

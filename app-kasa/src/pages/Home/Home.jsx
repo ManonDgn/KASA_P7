@@ -8,9 +8,9 @@ import Card from "../../components/Card/Card"
 //
 function Home() {
     return ( 
-    <div className="Home_el">
+    <div className="home-bloc">
         <BannerHome />
-        <div className="Home_card_place">
+        <div className="home-cards-place">
             <Card />
         </div>
     </div>

@@ -7,7 +7,7 @@ import About from "../pages/About/About";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Error from "../pages/Error/Error";
-// import Place from "../pages/Place/Place";
+import Place from "../pages/Place/Place";
 
 function Router () {
     return (
@@ -16,6 +16,7 @@ function Router () {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/A-propos" element={<About />} />
+      <Route path="/Logement/:id" element={<Place />} />
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />
@@ -24,5 +25,3 @@ function Router () {
 }
 
 export default Router;
-// <Route path="/Logement/:id" element={<Place />} />
-// <Route path="*" element={<Error />} />

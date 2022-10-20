@@ -10,13 +10,12 @@ import Collapse from "../../components/Collapse/Collapse"
 function About() {
     return (<div>
         <BannerAbout />
-        <div className='about-list'>
+        <div>
           <Collapse
             name='Fiabilité'
             description={<p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.</p>}
           />
           <Collapse
-            className ="collapseBar"
             name='Respect'
             description={<p>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.</p>}
           />

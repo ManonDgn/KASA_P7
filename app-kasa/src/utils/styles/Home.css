@@ -1,13 +1,13 @@
-.Home_el {
+.home-bloc {
     margin: 0 20px;
 }
-.Home_card_place {
+.home-cards-place {
     background-color: #F6F6F6;
     border-radius: 25px;
     max-width: 1240px;
-    margin: 40px auto;
-    padding: 45px 0;
+    margin: 20px 20px;
 }
+/*
 @media screen and (max-width: 795px){
     .Home_card_place {
         background-color: white;
@@ -15,3 +15,4 @@
         padding: 0;
     }
 }
+*/

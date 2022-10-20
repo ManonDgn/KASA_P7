@@ -2,19 +2,19 @@
 import "../../utils/styles/Card.css"
 // Import des Liens React 
 import { Link } from 'react-router-dom'
-// Import des Datas des Places
+// Import des Datas Logements
 import { PlacesDatas } from "../../datas/PlaceDatas";
 
 //
 function Card () {
     return (
-        <ul className="Card_el">
+        <ul className="card-bloc">
             {PlacesDatas.map (({title, id, cover}) => (
-                <li className="Card_design" key={id}>
-                    <Link to ={`/Place/${id}`}>
-                    <div className="Card_color"></div>
-                    <h2 className="Card_title">{title}</h2>
-                    <img className="Card_img" src={cover} alt={title} />
+                <li className="card-design" key={id}>
+                    <Link to ={`/Logement/${id}`}>
+                    <div className="card-color"></div>
+                    <h2 className="card-title">{title}</h2>
+                    <img className="card-img" src={cover} alt={title} />
                     </Link>
                 </li>
             ))}

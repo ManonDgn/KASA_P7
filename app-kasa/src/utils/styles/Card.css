@@ -1,32 +1,26 @@
-.Card_el {
+.card-bloc {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: 0 20px;
     gap: 50px 60px;
 }
-.Card_design {
-list-style-type: none;
-width: 340px;
-height: 340px;
-position: relative;
-border-radius: 10px;
+.card-design {
+    list-style-type: none;
+    width: 340px;
+    height: 340px;
+    position: relative;
+    border-radius: 10px;
 }
-.Card_color {
+.card-color {
     background : linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
-.Card_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.Card_title {
+.card-title {
     font-size: 18px;
     font-weight: 500;
     color: white;            
@@ -36,20 +30,27 @@ border-radius: 10px;
     top: 78.82%;
     bottom: 5.88%;
 }
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 @media screen and (max-width: 795px){
-    .Card_el {
+    .card-bloc {
         gap: 20px 60px;
     }
-    .Card_design {
+    .card-design {
         width: 100%;
         height: 255px;
                 
     }
-    .Card__title {
-                left: 5.88%;
-                right: 5.88%;
-                top : 72%;
-                bottom: 5.88%;
-                }
+    .card-title {
+        left: 6%;
+        right: 6%;
+        top : 70%;
+        bottom: 6%;
+    }
 }
-           

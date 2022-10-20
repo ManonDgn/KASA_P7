@@ -1,8 +1,5 @@
-.Header {
-    margin: 0 20px;
-}
-.Header_el {
-    padding: 0 20px;
+.header-bloc {
+    padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,19 +7,18 @@
     margin: 40px auto;
     max-width: 1240px;
 }
-.Header_logo {
+.header-logo {
     width: 210px;
 }
-.Header_nav {
+.header-nav {
     display: flex;
 }
-.Header_link {
-    
+.header-link {
     list-style-type: none;
     padding: 20px 0 20px 40px;
     color:#FF6060;
 }
-.Link_Nav{
+.nav-links{
     font-size: 24px;
     font-weight: 500; 
     color:#FF6060;

@@ -5,9 +5,9 @@ import Logo from "../../assets/LOGO_W.png"
 //
 function Footer() {
     return (
-        <footer className="Footer_el">
-            <img className="Footer_logo" src={Logo} alt="Logo" />
-            <p className="Footer_p">© 2020 Kasa. All rights reserved</p>
+        <footer className="footer-bloc">
+            <img className="footer-logo" src={Logo} alt="Logo" />
+            <p className="footer-brand">© 2020 Kasa. All rights reserved</p>
         </footer>
     )
 }

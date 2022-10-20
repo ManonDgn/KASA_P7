@@ -1,10 +1,10 @@
-.Position_BannerAbout {
+.bannerAbout-bloc {
     display: flex;
     justify-content: center;
-    margin: 43px 20px;
     position: relative;
+    margin: 0 40px;
 }
-.BannerAbout_el {
+.bannerAbout-el {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     max-width: 1240px;
     border-radius: 25px;
 }  
-.BannerAbout_img {
+.bannerAbout-img {
         background: url("../../assets/BannerAbout.jpg");
         background-size: cover;
         height: 223px;
@@ -21,14 +21,4 @@
         border-radius: 25px;
         position: absolute;
         z-index: 1;
-}
-@media screen and (max-width: 600px){
-    .Position_BannerAbout {
-        margin: 20px 20px;
-    }
-    .BannerAbout_div_img {
-        background: url("../../assets/BannerAbout.jpg");
-        border-radius: 10px;
-        background-size: cover;
-    }
 }

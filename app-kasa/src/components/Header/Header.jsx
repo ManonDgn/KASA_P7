@@ -8,12 +8,12 @@ import Logo from '../../assets/LOGO.png'
 //
 function Header() {
     return (
-        <header className='Header'>
-            <div className='Header_el'>
-                <img className="Header_logo" src={Logo} alt="Logo" />
-                <nav className='Header_nav'>
-                    <li className='Header_link'><Link className='Link_Nav' to="/">Home</Link></li>
-                    <li className='Header_link'><Link className='Link_Nav' to="/A-propos">About</Link></li>
+        <header>
+            <div className='header-bloc'>
+                <img className="header-logo" src={Logo} alt="Logo" />
+                <nav className='header-nav'>
+                    <li className='header-link'><Link className='nav-links' to="/">Home</Link></li>
+                    <li className='header-link'><Link className='nav-links' to="/A-propos">About</Link></li>
                 </nav>
             </div>
         </header>

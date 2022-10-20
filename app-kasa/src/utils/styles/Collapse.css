@@ -1,12 +1,32 @@
-.collDesc {
+.collapse-bloc {
+    padding: 10px 40px;
+    flex:1;
+}
+.collapse-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF6060;
+    border-radius: 5px;
+    border: none;
+    height: 47px;
     width: 100%;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    font-family: montserrat;
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+.collapse-desc {
     font-family: montserrat;
     color: #FF6060;
     size: 24px;
     background: #F2F2F2;
     border-radius: 5px;
-    padding: 15px 15px 2px 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
-.positionCollapse {
-    margin: 30px
-};
