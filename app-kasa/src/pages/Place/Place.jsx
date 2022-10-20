@@ -3,7 +3,7 @@ import "../../utils/styles/Place.css" ;
 import starFull from "../../assets/star_rate-full.png" ;
 import starEmpty from "../../assets/star_rate-empty.png" ;
 
-// Import des Datas Logements
+// Import des Datas Logements et UseParams React
 import { PlacesDatas } from "../../datas/PlaceDatas";
 import { useParams } from 'react-router-dom'
 
@@ -14,9 +14,7 @@ import Slideshow from "../../components/Slideshow/Slideshow";
 function Place() {
     const { id } = useParams();
     const found = PlacesDatas.find((place) => place.id === id);
-  
     const rang = [1, 2, 3, 4, 5]
-  
     return (
       <div>
         <section>
@@ -54,7 +52,7 @@ function Place() {
   
             <Collapse
               name='Équipements'
-              description={<ul>{found.equipments.map((equipments, index) => (
+              description={<ul className="collapse-equip">{found.equipments.map((equipments, index) => (
                 <li key={`${index}-${equipments}`}>{equipments}</li>
               ))}</ul>} />
           </div>

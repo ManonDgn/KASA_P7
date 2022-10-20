@@ -11,7 +11,7 @@ function Card () {
         <ul className="card-bloc">
             {PlacesDatas.map (({title, id, cover}) => (
                 <li className="card-design" key={id}>
-                    <Link to ={`/Logement/${id}`}>
+                    <Link to ={`/logement/${id}`}>
                     <div className="card-color"></div>
                     <h2 className="card-title">{title}</h2>
                     <img className="card-img" src={cover} alt={title} />

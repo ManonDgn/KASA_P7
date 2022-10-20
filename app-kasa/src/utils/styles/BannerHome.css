@@ -1,7 +1,6 @@
 .bannerHome-bloc {
     display: flex;
     justify-content: center;
-    margin: 0;
     position: relative;
     margin: 0 20px;
 }

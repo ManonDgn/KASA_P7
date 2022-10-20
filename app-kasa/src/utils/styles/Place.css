@@ -81,3 +81,7 @@
    align-items: center;
    width: 100%;
 }
+.collapse-equip {
+    list-style-type: none;
+    padding-left: 0;
+}

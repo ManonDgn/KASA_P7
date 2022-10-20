@@ -12,8 +12,8 @@ function Header() {
             <div className='header-bloc'>
                 <img className="header-logo" src={Logo} alt="Logo" />
                 <nav className='header-nav'>
-                    <li className='header-link'><Link className='nav-links' to="/">Home</Link></li>
-                    <li className='header-link'><Link className='nav-links' to="/A-propos">About</Link></li>
+                    <li className='header-link'><Link className='nav-links' to="/">Accueil</Link></li>
+                    <li className='header-link'><Link className='nav-links' to="/a-propos">A propos</Link></li>
                 </nav>
             </div>
         </header>
