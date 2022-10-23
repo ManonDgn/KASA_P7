@@ -20,12 +20,12 @@ function Slideshow(slides) {
     
           {length > 1 && (<div onClick={previous}><img src={arrowLeft} alt='flèche vers la gauche' className="carousel-btn-left" /></div>)}
           {length > 1 && (<div onClick={next}><img src={arrowRight} alt='flèche vers la droite' className="carousel-btn-right" /></div>)}
-    
+          <p className="counter-pic">{current + 1}/{slides.pictures.length}</p>
           {slides.pictures.map((image, index) => {
             return (
-              <div key={index}>
+              <figure key={index}>
                 {index === current && (<img src={image} alt="Exemple du logement" className='carousel-img' />)}
-              </div>
+              </figure>
             )
           })}
         </div>
@@ -33,3 +33,11 @@ function Slideshow(slides) {
 }
   
 export default Slideshow ;
+
+/*
+<div
+        className={
+          images.length === 1 ? SliderCSS.numbInfoNone : SliderCSS.numbInfo
+        }
+      >
+*/

@@ -17,6 +17,7 @@ function Router () {
       <Route path="/" element={<Home />} />
       <Route path="/a-propos" element={<About />} />
       <Route path="/logement/:id" element={<Place />} />
+      <Route path="/erreur" element={<Error />} />
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />

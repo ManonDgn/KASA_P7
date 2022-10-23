@@ -16,11 +16,16 @@
 .header-link {
     list-style-type: none;
     padding: 20px 0 20px 40px;
-    color:#FF6060;
 }
-.nav-links{
+.nav-links {
     font-size: 24px;
     font-weight: 500; 
     color:#FF6060;
     text-decoration: none;
+}
+.nav-links:focus {
+    text-decoration: underline;
+}
+.nav-links:active {
+    text-decoration: underline;
 }

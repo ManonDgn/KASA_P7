@@ -4,6 +4,7 @@ import starFull from "../../assets/star_rate-full.png" ;
 import starEmpty from "../../assets/star_rate-empty.png" ;
 
 // Import des Datas Logements et UseParams React
+import { useNavigate } from "react-router-dom";
 import { PlacesDatas } from "../../datas/PlaceDatas";
 import { useParams } from 'react-router-dom'
 
@@ -14,6 +15,8 @@ import Slideshow from "../../components/Slideshow/Slideshow";
 function Place() {
     const { id } = useParams();
     const found = PlacesDatas.find((place) => place.id === id);
+    // const navigate = useNavigate()
+    // navigue vers /error
     const rang = [1, 2, 3, 4, 5]
     return (
       <div>
