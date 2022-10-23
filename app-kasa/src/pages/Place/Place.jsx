@@ -19,7 +19,7 @@ function Place() {
     // navigue vers /error
     const rang = [1, 2, 3, 4, 5]
     return (
-      <div>
+      <main className="container">
         <section>
           <Slideshow pictures={found.pictures} />
         </section>
@@ -60,7 +60,7 @@ function Place() {
               ))}</ul>} />
           </div>
         </section>
-      </div>
+      </main>
     )
 }
 

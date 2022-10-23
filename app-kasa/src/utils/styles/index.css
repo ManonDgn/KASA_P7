@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 body {
-  max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +9,9 @@ body {
   body {
     margin : 0;
   }
+}
+.container {
+  max-width: 1240px;
+  margin: auto;
+  padding-bottom: 30px;
 }
