@@ -1,20 +1,21 @@
-// Import style & Media
+// Import style & Medias
 import "../../utils/styles/Place.css" ;
 import starFull from "../../assets/star_rate-full.png" ;
 import starEmpty from "../../assets/star_rate-empty.png" ;
 
 // Import des Datas Logements et UseParams React
 import { PlacesDatas } from "../../datas/PlaceDatas";
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 
 // Import composants
 import Collapse from "../../components/Collapse/Collapse" ;
 import Slideshow from "../../components/Slideshow/Slideshow";
-import Error from "../Error/Error"
+import Error from "../Error/Error";
+
 //
 function Place() {
     const { id } = useParams();
-    const rang = [1, 2, 3, 4, 5]
+    const rang = [1, 2, 3, 4, 5];
     const found = PlacesDatas.find((place) => place.id === id);
     if (!found) {
       return <Error />
@@ -63,5 +64,4 @@ function Place() {
         </section>
       </main>
     )}
-
 export default Place ;

@@ -6,7 +6,6 @@ import BannerAbout from "../../components/Banner/BannerAbout"
 import Collapse from "../../components/Collapse/Collapse"
 
 //
-
 function About() {
     return (<main className="container">
         <BannerAbout />
@@ -30,6 +29,4 @@ function About() {
         </div>
         </main>)
 }
-
 export default About ;
-

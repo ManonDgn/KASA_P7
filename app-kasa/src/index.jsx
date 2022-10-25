@@ -1,3 +1,4 @@
+// Import React, composant Router & Style
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Router from "./components/Router";

@@ -17,6 +17,7 @@
     left: 2%;
     transition-duration: 1s;
     z-index: 10;
+    filter: drop-shadow(1px 1px 20px black);
 }
 .carousel-btn-left:hover {
     cursor: pointer;
@@ -28,6 +29,7 @@
     right: 2%;
     transition-duration: 1s;
     z-index: 10;
+    filter: drop-shadow(1px 1px 20px black);
 }
 .carousel-btn-right:hover {
     cursor: pointer;
@@ -39,6 +41,7 @@
     top: 85%;
     z-index: 10;
     color: #F2F2F2;
+    font-weight: 500;
 }
 .place-slide {
     margin: 0;

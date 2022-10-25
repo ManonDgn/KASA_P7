@@ -12,5 +12,4 @@ function BannerHome () {
         </div>
     )
 }
-
-export default BannerHome
+export default BannerHome ;

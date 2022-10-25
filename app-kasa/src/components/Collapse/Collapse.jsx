@@ -5,6 +5,7 @@ import arrowUp from "../../assets/arrow_up.png"
 // Import du UseState 
 import { useState } from 'react'
 
+//
 function Collapse(collapsetype) {
     const [isClose, setIsClose] = useState(true)
     return isClose ? (

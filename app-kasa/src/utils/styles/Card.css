@@ -54,22 +54,3 @@
         bottom: 6%;
     }
 }
-/*
-@media screen and (max-width: 768px){
-    .card-bloc {
-        gap: 20px;
-        padding: 20px 0;
-    }
-    .card-design {
-        width: 100%;
-        height: 255px;
-                
-    }
-    .card-title {
-        left: 6%;
-        right: 6%;
-        top : 70%;
-        bottom: 6%;
-    }
-}
-*/

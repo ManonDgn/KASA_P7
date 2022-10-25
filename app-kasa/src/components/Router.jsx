@@ -9,6 +9,7 @@ import Footer from "./Footer/Footer";
 import Error from "../pages/Error/Error";
 import Place from "../pages/Place/Place";
 
+//
 function Router () {
     return (
     <BrowserRouter>
@@ -24,6 +25,5 @@ function Router () {
   </BrowserRouter>
     );
 }
-
 export default Router;
 
