@@ -50,6 +50,12 @@
     .carousel-img {
         height: 255px;
     }
+    .carousel-btn-right {
+        height: 50px;
+    }
+    .carousel-btn-left {
+        height: 50px;
+    }
     .counter-pic {
         z-index: -1;
     }
