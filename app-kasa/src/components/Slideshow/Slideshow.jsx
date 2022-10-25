@@ -23,7 +23,7 @@ function Slideshow(slides) {
           <p className="counter-pic">{current + 1}/{slides.pictures.length}</p>
           {slides.pictures.map((image, index) => {
             return (
-              <figure key={index}>
+              <figure className="place-slide" key={index}>
                 {index === current && (<img src={image} alt="Exemple du logement" className='carousel-img' />)}
               </figure>
             )

@@ -9,11 +9,11 @@ function Collapse(collapsetype) {
     const [isClose, setIsClose] = useState(true)
     return isClose ? (
       <div className ="collapse-bloc">
-        <button className ="collapse-btn" onClick={() => setIsClose(false)}>{collapsetype.name}<img src={arrowDown} alt="Arrow Down"></img></button>
+        <button className ="collapse-btn" onClick={() => setIsClose(false)}>{collapsetype.name}<img className="arrowDown" src={arrowDown} alt="Arrow Down"></img></button>
       </div>
     ) : (
         <div className ="collapse-bloc">
-        <button className ="collapse-btn" onClick={() => setIsClose(true)}>{collapsetype.name}<img src={arrowUp} alt="Arrow Up"></img></button>
+        <button className ="collapse-btn" onClick={() => setIsClose(true)}>{collapsetype.name}<img className="arrowUp" src={arrowUp} alt="Arrow Up"></img></button>
         <div className="collapse-desc">{collapsetype.description}</div>
       </div>
     )

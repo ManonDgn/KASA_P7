@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    margin: 0 40px;
 }
 .bannerAbout-el {
     display: flex;
@@ -21,4 +20,10 @@
         border-radius: 25px;
         position: absolute;
         z-index: 1;
+}
+@media screen and (max-width: 768px){
+    .bannerAbout-img {
+        background:url("../../assets/BannerAbout_mob.png");
+        background-size: cover;
+    }
 }

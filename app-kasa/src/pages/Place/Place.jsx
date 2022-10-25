@@ -4,7 +4,7 @@ import starFull from "../../assets/star_rate-full.png" ;
 import starEmpty from "../../assets/star_rate-empty.png" ;
 
 // Import des Datas Logements et UseParams React
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { PlacesDatas } from "../../datas/PlaceDatas";
 import { useParams } from 'react-router-dom'
 
@@ -25,7 +25,7 @@ function Place() {
         </section>
         <section >
           <div className='place'>
-            <div>
+            <div className="place-bloc"> 
               <h1 className='place-title'>{found.title}</h1>
               <h2 className='place-location'>{found.location}</h2>
               <ul className='place-location-tags'>
@@ -48,7 +48,7 @@ function Place() {
               </div>
             </div>
           </div>
-          <div className='place-collapses'>
+          <div className='collapses-place'>
             <Collapse
               name='Description'
               description={<p>{found.description}</p>} />

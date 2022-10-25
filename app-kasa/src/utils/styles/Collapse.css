@@ -1,5 +1,5 @@
 .collapse-bloc {
-    padding: 10px 40px;
+    padding: 10px 0px;
     flex:1;
 }
 .collapse-btn {
@@ -25,9 +25,28 @@
     color: #FF6060;
     size: 24px;
     background: #F2F2F2;
-    border-radius: 5px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    padding-left: 10px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 15px 10px 5px 10px;
     list-style-type: none;
+    position: relative;
+    top: -5px;
+    z-index: -1;
+}
+@media screen and (max-width: 768px){
+    .collapse-bloc {
+        padding: 0;
+    }
+    .collapse-btn {
+        font-size: 13px;
+        height: 35px;
+    }
+    .collapse-desc {
+        font-size: 12px;
+    }
+    .arrowDown {
+        height: 20px;
+    }
+    .arrowUp {
+        height: 20px;
+    }
 }

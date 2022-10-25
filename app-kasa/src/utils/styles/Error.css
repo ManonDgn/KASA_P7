@@ -2,17 +2,18 @@
     text-align: center;
     color: #FF6060;
     font-family: montserrat;
-    min-height: 100vh;
+    margin: 40px auto;
 }
 .error-title {
     font-size: 288px;
-    font-weight: 700px;
-    margin: 0;
+ 
+    margin:0;
 }
 
 .error-title2 {
     font-size: 36px;
-    font-weight: 500px;
+    margin-bottom: 150px;;
+    font-weight: 500;
 }
 
 .link-error {
@@ -20,5 +21,17 @@
     font-family: montserrat;
     font-size: 18px;
     font-weight: 500px;
-    margin-top: 150px;
+    
+}
+
+@media screen and (max-width: 1024px){
+    .error-title {
+        font-size: 96px;
+    }
+    .error-title2 {
+        font-size: 18px;
+    }
+    .link-error {
+        font-size: 14px;
+    }
 }

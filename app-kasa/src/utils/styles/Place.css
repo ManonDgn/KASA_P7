@@ -1,8 +1,6 @@
-
 .place {
     display: flex;
     justify-content: space-between;
-    margin: 0 40px;
 }
 
 .place-title {
@@ -76,13 +74,55 @@
     width: 30px;
     margin-bottom: 22px;
 }
-.place-collapses {
+.collapses-place {
    display: flex;
    justify-content: center;
-   align-items: center;
+   gap: 40px;
    width: 100%;
 }
 .collapse-equip {
     list-style-type: none;
     padding-left: 0;
+}
+@media screen and (max-width: 768px){
+    .place {
+        display: block;
+    }
+    .place-title {
+        font-size: 18px;
+    }
+    .place-location {
+        font-size: 14px;
+    }
+    .tag-place {
+        height: 20px;
+        font-size: 10px;
+    }
+    .account {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .account-host {
+        margin: 0;
+    }
+    .account-star {
+        margin: 0;
+    }
+    .account-host-name {
+        font-size: 12px;
+    }
+    .account-host-img {
+        height: 32px;
+        width: 32px;
+    }
+    .account-host-star {
+        margin: 0;
+        height: 15px;
+        width: 15px;
+    }
+    .collapses-place {
+        display: block;
+    }
 }

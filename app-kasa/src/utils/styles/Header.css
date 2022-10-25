@@ -3,9 +3,9 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    margin: 40px auto;
-    width: 100%;
     max-width: 1240px;
+    margin: 40px auto;
+    padding: 0px 70px;
 }
 .header-logo {
     width: 210px;
@@ -28,4 +28,33 @@
 }
 .nav-links:active {
     text-decoration: underline;
+}
+@media screen and (max-width: 1024px){
+    .header-bloc {
+        justify-content: space-between;
+        padding: 0px 20px;
+        margin: 20px auto;
+    }
+    .header-logo {
+        width: 160px;
+    }
+    .header-link {
+        padding-left: 30px ;
+    }
+    .nav-links {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 768px){
+    .header-logo {
+        width: 110px;
+    }
+    .header-link {
+        padding-left: 15px ;
+    }
+    .nav-links {
+        font-size: 14px;
+    }
+    
 }

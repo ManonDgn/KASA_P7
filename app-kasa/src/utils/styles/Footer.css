@@ -5,14 +5,24 @@
     justify-content: center;
     background-color: black;
     height: 209px;
-    margin:auto;
     width: 100%;
-
+    margin-top: 50px
 }
 .footer-logo {
-        padding: 35px 0 20px 0;
+    padding: 35px 0 20px 0;
 }
 .footer-brand {
-        color: white;
-        font-size: clamp(12px, 3vw, 24px);
+    color: white;
+    font-size: 24px;
+}
+@media screen and (max-width: 1024px){
+    .footer-bloc {
+        height: 209px;
+    }
+    .footer-logo {
+        height: 40px;
+    }
+    .footer-brand {
+        font-size: 12px;
+    }
 }
